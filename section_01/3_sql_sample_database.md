@@ -39,7 +39,7 @@ Referenced by:
  last_name    | character varying(50) |           | not null |
  relationship | character varying(25) |           | not null |
  employee_id  | integer               |           | not null |
-```sq;
+```sql
 Indexes:
     "dependents_pkey" PRIMARY KEY, btree (dependent_id)
 Foreign-key constraints:
